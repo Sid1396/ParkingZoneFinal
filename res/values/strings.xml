@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ParkingZone</string>
+    <string name="title_activity_welcome">ParkingZone</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ParkingZone</string>
+    <string name="nav_header_subtitle">Let The Machine Park For You</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
+    <string-array name="Hours">
+        <item>1 Hr -100Rs</item>
+        <item>2 Hr -200Rs</item>
+        <item>3 Hr -300Rs</item>
+        <item>4 Hr -400Rs</item>
+        <item>5 Hr -500Rs</item>
+        <item>6 Hr -600Rs</item>
+
+    </string-array>
+</resources>

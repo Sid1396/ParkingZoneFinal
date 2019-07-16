@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="205dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ETUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/custom_edit_text_bg"
+            android:drawableLeft="@drawable/ic_username"
+            android:hint="    Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000"
+            android:textColorHint="#080808"
+            android:textColorLink="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/ETPASS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_edit_text_bg"
+            android:drawableLeft="@drawable/ic_password"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textColorHint="#080808" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="Remember Me" />
+
+            <TextView
+                android:id="@+id/tvfg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="Forgot Password ?"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"/>
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="25sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    >
+
+    <Button
+        android:id="@+id/BTLOGIN"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bg"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:gravity="center"
+
+        android:textColorLink="@color/colorAccent" />
+
+
+
+    <Button
+        android:id="@+id/BTREGISTER"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOT ACCOUNT YET ? CREATE ONE"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom"
+        android:textColorLink="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
+

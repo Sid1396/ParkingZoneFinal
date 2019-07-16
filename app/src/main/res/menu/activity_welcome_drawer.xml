@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_MyProfile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_ReservedSlot"
+            android:icon="@drawable/ic_local_parking_black_24dp"
+            android:title="Reserved Slot" />
+<!--
+        <item
+        android:id="@+id/nav_RTime"
+        android:icon="@drawable/ic_timer_black_24dp"
+        android:title="Remaining Time" />
+-->
+
+        <item
+            android:id="@+id/nav_RechargeWallet"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="Recharge Wallet" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title=" Account Settings" />
+    </group>
+
+</menu>

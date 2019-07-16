@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ParkingZone</string>
+    <string name="title_activity_welcome">ParkingZone</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ParkingZone</string>
+    <string name="nav_header_subtitle">Let The Machine Park For You</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
+    <string-array name="Hours">
+        <item>1 Hr </item>
+        <item>2 Hr </item>
+        <item>3 Hr </item>
+        <item>4 Hr </item>
+        <item>5 Hr </item>
+        <item>6 Hr </item>
+
+    </string-array>
+    <string name="title_activity_verification">VerificationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

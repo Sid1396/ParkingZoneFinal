@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ManageAccount"
+    android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PARKINGZONE"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:layout_marginTop="20dp"
+    android:fontFamily="serif-monospace"
+    android:textStyle="bold"
+    android:textColor="@color/colorPrimary"
+    android:background="@color/graylight"
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/graylight">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/accsettingslogo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:text="Account Settings"
+        android:gravity="center"
+        android:fontFamily="serif-monospace"
+        />
+
+</LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="300dp"
+      android:orientation="vertical"
+      android:gravity="center"
+      android:padding="40dp">
+
+      <TextView
+          android:id="@+id/updateEmail"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="25sp"
+          android:textColor="@color/colorPrimary"
+          android:background="@drawable/custom_edit_text_bg"
+          android:text="Change Email"
+          android:gravity="center"
+          android:textStyle="bold"
+          android:fontFamily="serif-monospace"
+
+          />
+
+      <TextView
+          android:id="@+id/changePass"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="25sp"
+          android:background="@drawable/custom_edit_text_bg"
+          android:textColor="@color/colorPrimary"
+          android:textStyle="bold"
+          android:fontFamily="serif-monospace"
+          android:layout_marginTop="30dp"
+          android:gravity="center"
+          android:text="Change Password" />
+
+      <TextView
+          android:id="@+id/delAcc"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_marginTop="30dp"
+          android:background="@drawable/custom_edit_text_bg"
+          android:textStyle="bold"
+          android:textColor="@color/colorPrimary"
+          android:fontFamily="serif-monospace"
+          android:textSize="25dp"
+          android:text="Delete Account" />
+  </LinearLayout>
+
+</LinearLayout>

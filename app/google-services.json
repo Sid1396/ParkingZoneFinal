@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "877252966739",
+    "firebase_url": "https://myparkingzone.firebaseio.com",
+    "project_id": "myparkingzone",
+    "storage_bucket": "myparkingzone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877252966739:android:aa80c2bb6d5a1d5a",
+        "android_client_info": {
+          "package_name": "com.zone.parking.parkingzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877252966739-i497ek4gbssce095mu72m2pkvmsdueik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdo3nDLQe7RcmSFDApC5eXp96ChsbiBTw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

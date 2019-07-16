@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_status"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Status"
+        />
+
+    <item
+        android:id="@+id/navigation_park"
+        android:icon="@drawable/ic_local_parking_black_24dp"
+        android:title="Park" />
+
+    <item
+        android:id="@+id/navigation_retrive"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="Retrieve" />
+
+</menu>
