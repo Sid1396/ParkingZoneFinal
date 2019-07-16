@@ -211,7 +211,6 @@ public class LoginActivity extends AppCompatActivity implements TextWatcher, Com
 
 
 
-        //Thank You
 
 
     @Override
