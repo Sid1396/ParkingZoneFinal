@@ -41,6 +41,9 @@ public class LoginActivity extends AppCompatActivity implements TextWatcher, Com
     private static final String KEY_PASS="pass" ;
     private FirebaseAuth mAuth;
     private ProgressBar progressBar;
+    
+    
+    //git
 
 
 
