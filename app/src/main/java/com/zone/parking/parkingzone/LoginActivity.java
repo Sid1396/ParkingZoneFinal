@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity implements TextWatcher, Com
     private ProgressBar progressBar;
     
     
-    //git
+
 
 
 
