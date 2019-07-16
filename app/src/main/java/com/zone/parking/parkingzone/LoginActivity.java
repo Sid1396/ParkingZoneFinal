@@ -211,6 +211,8 @@ public class LoginActivity extends AppCompatActivity implements TextWatcher, Com
 
 
 
+        //Thank You
+
 
     @Override
     public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
